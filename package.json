@@ -1,0 +1,8 @@
+{
+  "name": "sandbox",
+  "version": "0.0.1",
+  "dependencies": {
+    "yql": ">= 0.0.1"
+  }
+}
+
