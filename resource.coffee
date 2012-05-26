@@ -71,7 +71,7 @@ class Feed extends Proxy
             guid: item.guid?.content ? item.guid?.content
             image: item.content?.url ? item.content?.url
             thumbnail: item.thumbnail?.url ? item.thumbnail?.url
-          if not image?
+          if not entry.image?
             url = extractImage entry.description
             entry.image = url
             entry.thumbnail = url
