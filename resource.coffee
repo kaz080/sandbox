@@ -41,8 +41,7 @@ class Proxy
 
 extractImage = (html) ->
   matches = html.match /img src="([^"]+)"/
-  if matches.length < 2
-  	return ""
+  return null if matches.length < 2
   matches[1]
 
 class Feed extends Proxy
