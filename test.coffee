@@ -1,3 +1,6 @@
+# Test code for resource.
+# npm install
+# coffee test
 
 resource = require "./resource"
 
