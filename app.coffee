@@ -13,7 +13,7 @@ do ->
   App.feedView = view.createFeedView
     title: "Feed"
   App.feedView.create()
-  
+
   # Create initial event routing
 
   # Show up initial UI
