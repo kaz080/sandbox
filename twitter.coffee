@@ -31,7 +31,7 @@ streamURL = "https://stream.twitter.com/1/statuses/filter.json?" + query
 console.log streamURL
 
 # Create request
-if config.auth?
+if env.auth?
   option = url.parse streamURL
   option.auth = env.auth
   req = https.get option
